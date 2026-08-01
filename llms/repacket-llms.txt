@@ -1,0 +1,48 @@
+# Repacket
+
+## Docs
+
+- [Product Updates](https://docs.repacket.com/changelog/overview.md): New updates and improvements
+- [Advanced Schema](https://docs.repacket.com/config/advanced.md): An dive into our proto under the hood
+- [Categories](https://docs.repacket.com/config/categories.md): A list of Repacket's default categories.
+- [Domain Information](https://docs.repacket.com/config/domain-info.md): Look up domain reputation scores to assess trustworthiness and risk levels
+- [Entities](https://docs.repacket.com/config/entities.md): Targets for applying security and policy features within Repacket
+- [Modules](https://docs.repacket.com/config/modules.md): Core features of Repacket
+- [repacket.proto](https://docs.repacket.com/config/schema.md): The raw Repacket proto
+- [Devices](https://docs.repacket.com/modules/access/devices.md): Monitor devices connected to your organization's network
+- [Groups](https://docs.repacket.com/modules/access/groups.md): Organize users into groups for simplified access control and policy management
+- [Users](https://docs.repacket.com/modules/access/users.md): Manage user accounts, roles, and access permissions across your organization
+- [App Discovery](https://docs.repacket.com/modules/app-discovery.md): Discover what applications your organization is using and monitor file uploads across web applications.
+- [Bypass](https://docs.repacket.com/modules/bypass.md): Exclude specific traffic from Repacket interception entirely
+- [Dashboard](https://docs.repacket.com/modules/dashboard.md): Monitor security activity and threats across your organization with real-time insights
+- [AI Filters](https://docs.repacket.com/modules/dlp/ai-filters.md): Configure AI-powered detection filters for sensitive data
+- [Patterns](https://docs.repacket.com/modules/dlp/patterns.md): Configure pattern-based detection for sensitive data
+- [Rules](https://docs.repacket.com/modules/dlp/rules.md): Apply advanced controls to safeguard sensitive data
+- [Testing](https://docs.repacket.com/modules/dlp/testing.md): Test DLP filters against uploaded files before enforcing in production
+- [Firewall](https://docs.repacket.com/modules/firewall.md): Control internet access by applying access rules to categories and domains
+- [Just-in-Time Exceptions](https://docs.repacket.com/modules/jit-exceptions.md): Allow temporary access to blocked categories when needed
+- [Alerts](https://docs.repacket.com/modules/logs/alerts.md): Real-time notifications for security events and policy violations
+- [Audit Logs](https://docs.repacket.com/modules/logs/audit-logs.md): Complete audit trail of user actions and system events
+- [Uploads](https://docs.repacket.com/modules/logs/uploads.md): Track and monitor file uploads across your network
+- [Phishing Prevention](https://docs.repacket.com/modules/phishing-prevention.md): Detect and block phishing pages dynamically
+- [Protections](https://docs.repacket.com/modules/protections.md): Safeguard users with advanced phishing prevention and session protection
+- [Session Protection](https://docs.repacket.com/modules/session-protection.md): Keep sessions from being used on unauthorized devices
+- [Templates](https://docs.repacket.com/modules/templates.md): Create and customize firewall block and warning page templates
+- [Quickstart](https://docs.repacket.com/quickstart.md): Deploy Repacket in just a few minutes
+- [Dowloads](https://docs.repacket.com/setup/downloads.md): All up-to-date client downloads of Repacket.
+- [Install Guides](https://docs.repacket.com/setup/guides.md): Install Repacket on Windows or MacOS!
+- [MacOS Install](https://docs.repacket.com/setup/macos.md): Install Repacket on your MacOS computer.
+- [Generic MDM](https://docs.repacket.com/setup/mdm/generic.md): Deploy Repacket to any generic MDM platform.
+- [MDM Guides](https://docs.repacket.com/setup/mdm/guides.md): Install Repacket across your fleet with your MDM of choice.
+- [Microsoft Intune](https://docs.repacket.com/setup/mdm/intune.md): Deploy Repacket to your Microsoft Intune fleet.
+- [Jamf](https://docs.repacket.com/setup/mdm/jamf.md): Deploy Repacket to your macOS fleet using Jamf Pro.
+- [Kandji](https://docs.repacket.com/setup/mdm/kandji.md): Deploy Repacket to your macOS fleet using Kandji.
+- [Registration keys](https://docs.repacket.com/setup/mdm/registration-keys.md)
+- [Windows Install](https://docs.repacket.com/setup/windows.md): Install Repacket on your Windows computer.
+
+## OpenAPI Specs
+
+- [discovery-openapi](https://docs.repacket.com/discovery-openapi.json)
+- [example-openapi](https://docs.repacket.com/example-openapi.json)
+- [v1-openapi](https://docs.repacket.com/v1-openapi.json)
+- [openapi](https://docs.repacket.com/api-reference/openapi.json)

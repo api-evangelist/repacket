@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.repacket.com/changelog/overview
+scheme: dated
+current_version: null
+entries:
+- version: null
+  date: '2025-03'
+  label: March 2025
+  title: Design Overhaul
+  breaking: false
+  additions: true
+  highlights:
+  - Full UI/UX overhaul of the Repacket dashboard.
+  - Replaced legacy toggles with full dynamic rule builders.

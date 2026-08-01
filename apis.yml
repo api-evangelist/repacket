@@ -1,8 +1,14 @@
 aid: repacket
 name: Repacket
-description: 'Repacket is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Repacket is an AI-native Secure Web Gateway (SWG) that makes endpoint
+  security simple by blocking the majority of online threats by default. It protects
+  organizations from phishing, malware, and sensitive-data leaks while giving teams
+  visibility and control over AI usage and file uploads. Repacket runs as a managed
+  client on Windows and macOS (deployable via MDM such as Intune, Jamf, and Kandji)
+  and enforces traffic policy through modules for content filtering, data loss prevention
+  (DLP), firewall/category access control, app discovery, phishing and session protection,
+  just-in-time exceptions, and audit logging. Policy is expressed through a Protocol
+  Buffers configuration schema. Backed by Initialized Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/repacket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,32 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/6793e21cbf750f00f470df62/688a5c5d6c71954566bc66a1_image%20(5).png
 tags:
 - Company
 - Enterprise Saas
+- Security
+- Secure Web Gateway
+- Data Loss Prevention
+- Phishing Prevention
+- Endpoint Security
+- Content Filtering
+- Firewall
+- Network Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,43 @@ maintainers:
 common:
 - type: Website
   url: https://repacket.com
+- type: DeveloperPortal
+  url: https://docs.repacket.com
+- type: Documentation
+  url: https://docs.repacket.com
+- type: GettingStarted
+  url: https://docs.repacket.com/quickstart
+- type: Blog
+  url: https://www.repacket.com/blog
+- type: Support
+  url: mailto:support@repacket.com
+- type: Pricing
+  url: https://www.repacket.com/pricing
+- type: SignUp
+  url: https://app.repacket.com
+- type: TermsOfService
+  url: https://www.repacket.com/policy/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.repacket.com/policy/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/repacket
+- type: ChangeLog
+  url: https://docs.repacket.com/changelog/overview
+- type: ChangeLog
+  name: Repacket changelog (structured)
+  url: changelog/repacket-changelog.yml
+- type: Protobuf
+  name: Repacket config proto schema
+  url: grpc/repacket-config.proto
+- type: LLMsTxt
+  url: llms/repacket-llms.txt
+- type: DomainSecurity
+  url: security/repacket-domain-security.yml
+- type: WellKnown
+  name: well-known probe (none published)
+  url: well-known/repacket-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
