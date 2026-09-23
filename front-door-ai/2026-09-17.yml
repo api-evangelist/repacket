@@ -1,0 +1,27 @@
+# Front Door AI Index — repacket — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: repacket
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: repacket.com
+  final_host: www.repacket.com
+  ownership: own
+  owner: repacket
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 29.13
+  words: 515
+  tiers:
+    agentic: 0
+    core: 15
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 14
+    LLMs: 1
+    intelligence: 1
